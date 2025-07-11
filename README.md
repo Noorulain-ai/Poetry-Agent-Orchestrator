@@ -12,7 +12,7 @@ A smart orchestrator that reads a poem and decides whether it's 🎵 *lyric*, �
 
 ## 🚀 Live Repository
 
-🔗 [GitHub: poetry-agent-orchestrator](https://github.com/NoorUlAinParvaz/poetry-agent-orchestrator)
+🔗 [GitHub: poetry-agent-orchestrator](https://github.com/Noorulain-ai/Poetry-Agent-Orchestrator)
 
 ---
 
@@ -60,7 +60,7 @@ A smart orchestrator that reads a poem and decides whether it's 🎵 *lyric*, �
 
 ### ✅ 1. Clone the Repo
 
-git clone https://github.com/NoorUlAinParvaz/poetry-agent-orchestrator.git
+git clone https://github.com/Noorulain-ai/Poetry-Agent-Orchestrator
 cd poetry-agent-orchestrator
 
 
