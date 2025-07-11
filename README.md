@@ -32,7 +32,7 @@ A smart orchestrator that reads a poem and decides whether it's 🎵 *lyric*, �
 
 | Tool | Purpose |
 |------|---------|
-| 🔮 Gemini 2.5 Flash | OpenAI-compatible LLM via Google |
+| 🔮 Gemini  | OpenAI-compatible LLM via Google |
 | 🧠 Agentic SDK | Agent orchestration and handoff |
 | 🐍 Python 3.10+ | Programming Language |
 | 📁 `.env` + `dotenv` | API key management |
@@ -46,9 +46,6 @@ A smart orchestrator that reads a poem and decides whether it's 🎵 *lyric*, �
 ├── .env # Gemini API key
 └── README.md # You're reading it!
 
-yaml
-Copy
-Edit
 
 ---
 
@@ -64,15 +61,14 @@ cd poetry-agent-orchestrator
 
 ✅ 2. Install Requirements
 
-pip install openai --pre
-pip install python-dotenv
+uv add openai-agents
+uv add python-dotenv
 
 
 ✅ 3. Add Your API Key
 Create a .env file with your Gemini key:
 
 GEMINI_API_KEY=your_actual_gemini_key
-You can get the key from 🔗 Google MakerSuite
 
 
 ✅ 4. Run the App
